@@ -1,0 +1,135 @@
+[
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hi there!", "Hello! How can I assist you?", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care"],
+      "responses": ["Goodbye! Have a great day!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help!", "Anytime!"]
+    },
+    {
+      "tag": "linear_regression",
+      "patterns": [
+        "What is linear regression?",
+        "Explain linear regression",
+        "Use cases of linear regression"
+      ],
+      "responses": [
+        "Linear Regression is a supervised learning algorithm used for predicting continuous values.",
+        "Some use cases include house price prediction and sales forecasting.",
+        "It models the relationship between dependent and independent variables."
+      ]
+    },
+    {
+      "tag": "logistic_regression",
+      "patterns": [
+        "What is logistic regression?",
+        "Explain logistic regression",
+        "Applications of logistic regression"
+      ],
+      "responses": [
+        "Logistic Regression is a classification algorithm used to predict binary outcomes.",
+        "Common use cases are email spam detection and diabetes prediction.",
+        "It outputs probabilities that map to classes."
+      ]
+    },
+    {
+      "tag": "decision_trees",
+      "patterns": [
+        "What are decision trees?",
+        "Explain decision trees",
+        "Applications of decision trees"
+      ],
+      "responses": [
+        "Decision Trees use a tree-like structure to make decisions based on feature values.",
+        "Common use cases are credit risk assessment and customer segmentation.",
+        "They are simple to interpret and implement."
+      ]
+    },
+    {
+      "tag": "svm",
+      "patterns": [
+        "What is Support Vector Machines?",
+        "Explain SVM",
+        "Applications of SVM"
+      ],
+      "responses": [
+        "Support Vector Machines (SVM) is a classification algorithm that separates data points with a hyperplane.",
+        "Applications include image classification and text categorization.",
+        "It is effective for high-dimensional spaces."
+      ]
+    },
+    {
+      "tag": "neural_networks",
+      "patterns": [
+        "What are neural networks?",
+        "Explain neural networks",
+        "Applications of neural networks"
+      ],
+      "responses": [
+        "Neural Networks are algorithms modeled after the human brain, used for complex pattern recognition.",
+        "Applications include image recognition and natural language processing.",
+        "They consist of layers of interconnected nodes."
+      ]
+    },
+    {
+      "tag": "unsupervised_learning",
+      "patterns": [
+        "What is unsupervised learning?",
+        "Explain unsupervised learning",
+        "Examples of unsupervised learning"
+      ],
+      "responses": [
+        "Unsupervised Learning is a type of machine learning where models find patterns in data without labels.",
+        "Examples include clustering algorithms like K-Means.",
+        "It helps uncover hidden structures in data."
+      ]
+    },
+    {
+      "tag": "overfitting",
+      "patterns": [
+        "What is overfitting?",
+        "Explain overfitting",
+        "How to prevent overfitting"
+      ],
+      "responses": [
+        "Overfitting occurs when a model learns noise in the training data, reducing its ability to generalize.",
+        "You can prevent it using techniques like cross-validation and regularization.",
+        "Simplifying the model can also help reduce overfitting."
+      ]
+    },
+    {
+      "tag": "tools",
+      "patterns": [
+        "What are some tools for machine learning?",
+        "Popular machine learning tools",
+        "Examples of ML tools"
+      ],
+      "responses": [
+        "Popular ML tools include TensorFlow, PyTorch, scikit-learn, and Keras.",
+        "Other tools are Pandas for data manipulation and Matplotlib for visualization.",
+        "For large-scale data, Apache Spark MLlib is commonly used."
+      ]
+    },
+    {
+      "tag": "common_questions",
+      "patterns": [
+        "What is machine learning?",
+        "Difference between supervised and unsupervised learning",
+        "What is feature scaling?"
+      ],
+      "responses": [
+        "Machine Learning enables systems to learn from data and improve without being explicitly programmed.",
+        "Supervised learning uses labeled data, while unsupervised learning identifies patterns in unlabeled data.",
+        "Feature scaling normalizes the range of features in data for better performance."
+      ]
+    }
+  ]
+  
